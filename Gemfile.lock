@@ -11,6 +11,15 @@ PATH
       rubyzip
 
 PATH
+  remote: ../user_hierarchies
+  specs:
+    user_hierarchies (0.0.1)
+      facets
+      fastercsv
+      rforce
+      ripl
+
+PATH
   remote: ../variable_uploader
   specs:
     variable_uploader (0.0.1)
@@ -19,16 +28,26 @@ PATH
       rspec
 
 GEM
+  remote: http://rubygems.org/
   specs:
+    bond (0.4.1)
+    builder (3.0.0)
     diff-lcs (1.1.2)
+    facets (2.9.1)
     fastercsv (1.5.4)
     json (1.5.1)
     json_pure (1.5.1)
     mime-types (1.16)
+    oauth (0.4.4)
     parseconfig (0.5.2)
     rake (0.8.7)
     rest-client (1.6.3)
       mime-types (>= 1.16)
+    rforce (0.7)
+      builder (~> 3.0)
+      oauth (~> 0.4)
+    ripl (0.4.1)
+      bond (~> 0.4.0)
     rspec (2.6.0)
       rspec-core (~> 2.6.0)
       rspec-expectations (~> 2.6.0)
@@ -44,4 +63,5 @@ PLATFORMS
 
 DEPENDENCIES
   gooddata!
+  user_hierarchies!
   variable_uploader!
