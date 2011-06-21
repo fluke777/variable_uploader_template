@@ -1,0 +1,5 @@
+Id,Email,ManagerId
+1,John@example.com,3
+2,Jake@example.com,3
+3,Joe@example.com,
+4,Mike@example.com,2
