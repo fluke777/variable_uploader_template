@@ -2,7 +2,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'user_hierarchies'
 
-GoodData::UserHierarchy::read_from_csv("../data/data.csv", {
+GoodData::UserHierarchies::UserHierarchy::read_from_csv("../data/data.csv", {
     :user_id => :Id,
     :manager_id => :ManagerId,
     :description_field => :Email
